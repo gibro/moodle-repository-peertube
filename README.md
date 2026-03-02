@@ -15,7 +15,7 @@ Dieses Plugin ermöglicht es, Videos von einer PeerTube-Instanz direkt in Moodle
 3. Gebe Deinen **Access Token** ein. Den bekommst du mit diesem Befehl:
 
   curl -X POST \
--d "client_id=Is6jenqfqprnxtsbikucz8zr7jjyae7ly&client_secret=IHR_CLIENT_SECRET&grant_type=password&response_type=code&username=IHR_BENUTZERNAME&password=IHR_PASSWORT" \
+-d "client_id=IHR-CLIENT_ID&client_secret=IHR_CLIENT_SECRET&grant_type=password&response_type=code&username=IHR_BENUTZERNAME&password=IHR_PASSWORT" \
 https://peertube.example.com/api/v1/users/token
 
 ## Video-Einbettung in Moodle
